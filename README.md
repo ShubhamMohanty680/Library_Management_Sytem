@@ -20,4 +20,13 @@ The project emphasizes **data integrity, structured schema design, and business-
 ---
 
 # 🏗️ Database Architecture
-[📊 View Interactive DB Architecture](https://github.com/ShubhamMohanty680/Library_Management_Sytem/blob/main/library_db_architecture.html)
+```mermaid
+erDiagram
+    books ||--o{ authors : "has"
+    books ||--o{ book_copies : "stocked in"
+    books ||--o{ book_loans : "loaned via"
+    publisher ||--o{ books : "publishes"
+    library_branch ||--o{ book_copies : "holds"
+    library_branch ||--o{ book_loans : "processes"
+    borrower ||--o{ book_loans : "makes"
+```
