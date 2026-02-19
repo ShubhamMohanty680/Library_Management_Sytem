@@ -20,4 +20,4 @@ The project emphasizes **data integrity, structured schema design, and business-
 ---
 
 # 🏗️ Database Architecture
-<iframe src="./architecture.html" width="100%" height="600px"></iframe>
+[📊 View Interactive DB Architecture](https://github.com/ShubhamMohanty680/Library_Management_Sytem/blob/main/library_db_architecture.html)
