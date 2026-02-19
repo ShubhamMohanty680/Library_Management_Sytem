@@ -19,7 +19,7 @@ The project emphasizes **data integrity, structured schema design, and business-
 
 ---
 
-# 🏗️ Database Architecture
+# 🏗️ E R Diagram
 ```mermaid
 erDiagram
     books ||--o{ authors : "has"
